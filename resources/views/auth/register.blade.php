@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('titulo')
-Registrate en <span class="text-[#38A800]">In</span><span class="text-[#00324D]">Am</span>
+Registrate en <span class="text-[#38A800]">Devst</span><span class="text-[#00324D]">agram</span>
 @endsection
 
 @section('contenido')

@@ -7,14 +7,13 @@
     @vite('resources/js/app.js')
 </head>
 <body class="bg-gray-100">
-{{--<h1 class="text-3xl font-bold underline">
-    Hello world!
-</h1>--}}
+
+
 <header class="p-5 border-b bg-[#FBFBE2] shadow flex justify-between items-center">
     <h1 class="text-3xl font-black">
-        <span class="text-[#38A800]">In</span><span class="text-[#00324D]">Am</span>
+        <span class="text-[#38A800]">Devst</span><span class="text-[#00324D]">agram</span>
     </h1>
-{{--Vamos a verificar si un usuario esta autenticado--}} 
+
     @auth()
         <nav class="flex gap-4 items-center">
             <a class="flex items-center gap-2 bg-white hover:bg-slate-50 border p-2 text-[#00324D] hover:text-[#38A800] rounded text-sm uppercase font-bold cursor-pointer" href="{{ route('post.create') }}">
@@ -57,7 +56,7 @@
     @yield('contenido')
 </main>
 <footer class="mt-15 text-center p-5 text-black font-bold uppercase">
-    <span class="text-[#38A800]">In</span><span class="text-[#00324D]">Am</span> - Todos los derechos reservados {{ now() }}
+    <span class="text-[#38A800]">Devsta</span><span class="text-[#00324D]">gram</span> - Todos los derechos reservados {{ now() }}
 </footer>
 </body>
 </html>
